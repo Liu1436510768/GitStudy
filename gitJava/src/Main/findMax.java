@@ -7,10 +7,7 @@ import java.util.Collections;
 public class findMax {//最大值，平均分，及格率。姬亮
 
 	public Integer FindMax(ArrayList<Integer> arr) {
-		/*
-		 * Integer Max = arr.get(0); if(Max<arr.get(arr.size()-1)) { Max =
-		 * arr.lastIndexOf(arr); }
-		 */
+		
 		int max = Collections.max(arr); 
 		return max;
 	}
