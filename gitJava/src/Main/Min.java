@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 
-public class Min {//ÂíÓÀÇ¿
+public class Min {//ï¿½ï¿½ï¿½ï¿½Ç¿
 
 	
 	
@@ -28,8 +28,8 @@ public class Min {//ÂíÓÀÇ¿
 			}
 		
 		}
-		youxiu = (count/arr.size());
-		System.out.println(youxiu);
+		youxiu = (count*100/arr.size());
+		System.out.println("ä¼˜ç§€ç‡"+youxiu+"%");
 		return youxiu;
 		
 	}
