@@ -32,12 +32,6 @@ public class findMax {//最大值，平均分，及格率。姬亮
 	public float FindPassRate (ArrayList<Integer> arr) {
 		int count = 0;
 		float PassRate=0;
-//		for(int i=0;i<arr.length;i++) {
-//			if (arr[i]>60) {
-//				count ++;
-//			}else {
-//			continue;
-//		}
 		for (int obj : arr) {
 			if (obj>=60) {
 				count ++;
