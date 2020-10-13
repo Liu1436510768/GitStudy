@@ -33,20 +33,20 @@ public class MainTask {
 		int Max = fm.FindMax(asList);
 		System.out.println("最大值"+Max);
 		// 及格率
-		Float passRate = fm.FindPassRate(asList);
-		System.out.println("及格率"+passRate);
+		fm.FindPassRate(asList);
+		
 		
 		Min m = new Min();
 		// 最小值
-		m.min();
+		m.min(arr);
 		// 中位数
-		m.zhongwei(); 
+		m.zhongwei(arr); 
 		// 优秀率
-		m.youxiu();
+		m.youxiu(arr);
 		
 		// 统计区间
-		Quyu qy = new Quyu;
-		qy.quyu();
+		Quyu qy = new Quyu();
+		qy.quyu(arr);
 	}
 
 }
