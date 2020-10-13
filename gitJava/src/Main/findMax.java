@@ -1,10 +1,11 @@
 package Main;
 
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 
 
-public class findMax {//×î´óÖµ£¬Æ½¾ù·Ö£¬¼°¸ñÂÊ¡£¼§ÁÁ
+public class findMax {//ï¿½ï¿½ï¿½Öµï¿½ï¿½Æ½ï¿½ï¿½ï¿½Ö£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¡ï¿½ï¿½ï¿½ï¿½ï¿½
 
 	public Integer FindMax(ArrayList<Integer> arr) {
 		
@@ -26,17 +27,20 @@ public class findMax {//×î´óÖµ£¬Æ½¾ù·Ö£¬¼°¸ñÂÊ¡£¼§ÁÁ
 	
 
 	}
-	public float FindPassRate (ArrayList<Integer> arr) {
+	public void FindPassRate (ArrayList<Integer> arr) {
 		int count = 0;
-		float PassRate=0;
 		for (int obj : arr) {
 			if (obj>=60) {
 				count ++;
 			}
 		
 		}
-		PassRate =	(count/arr.size());
-		return PassRate;
+		//System.out.println(count);
+		//System.out.println(arr.size());
+		 
+		int PassRate =(count*100/arr.size());
+		System.out.println(PassRate);
+		System.out.println("åŠæ ¼ç‡"+PassRate+"%");
 		}
 }
 
