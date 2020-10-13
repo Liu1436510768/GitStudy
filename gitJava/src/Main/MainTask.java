@@ -30,8 +30,8 @@ public class MainTask {
 		Float avg = fm.FindAverage(arr);
 		System.out.println("平均分"+avg);
 		// 最大值
-		int Max = fm.FindMax("最大值"+asList);
-		System.out.println();
+		int Max = fm.FindMax(asList);
+		System.out.println("最大值"+Max);
 		// 及格率
 		Float passRate = fm.FindPassRate(asList);
 		System.out.println("及格率"+passRate);
