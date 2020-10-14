@@ -19,7 +19,7 @@ public class Min {//����ǿ
 		System.out.println(zho);
 		return zho;
 	}
-	public static Float youxiu(ArrayList<Integer> arr) {
+	public static void youxiu(ArrayList<Integer> arr) {
 		int count = 0;
 		float youxiu=0;
 		for (int obj : arr) {
@@ -30,8 +30,6 @@ public class Min {//����ǿ
 		}
 		youxiu = (count*100/arr.size());
 		System.out.println("优秀率"+youxiu+"%");
-		return youxiu;
-		
-	}
 	
+	}
 }
