@@ -10,9 +10,10 @@ public class MainTask {
 		arr.add(15);
 		arr.add(50);
 		arr.add(75);
-		
+		arr.add(85);
 		Min.min(arr);
 		Min.zhongwei(arr);
+		Min.youxiu(arr);
 	}
 
 }
