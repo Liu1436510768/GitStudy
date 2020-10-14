@@ -1,5 +1,6 @@
 package Main;
 
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -19,16 +20,16 @@ public class Min {//¬Ì”¿«ø
 		System.out.println(zho);
 		return zho;
 	}
-	public static Float youxiu(ArrayList<Integer> arr) {
-		int count = 0;
-		float youxiu=0;
+	public static String youxiu(ArrayList<Integer> arr) {
+		float count = 0;
+		String youxiu;
 		for (int obj : arr) {
 			if (obj>=80) {
 				count ++;
 			}
 		
 		}
-		youxiu = (count/arr.size());
+		youxiu = NumberFormat.getPercentInstance().format(count/arr.size());
 		System.out.println(youxiu);
 		return youxiu;
 		
